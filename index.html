@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
-        <h2>Credit Card Checkout</h2>
+    <div class="card-form">
+        <img src="image.jpg" alt="card image">
         <form>
-            <div class="content1">
-                Card Number  <input type="text" id="card-number" placeholder="number" required>
-            </div> <br>
-            <div class="content2">
-                Card Name <input type="text" id="card-name" name="card-name" placeholder="card-name" required>
-            </div> <br>
-            <div class="content3">
-                Expiration Date  <input type="month" id="exp-date" name="exp-date" required>
-            </div> <br>
-            <div class="content4">
-                Security Code  <input type="security code" placeholder="xxxxxxxxxxxxxxxxxxxxxxxx" required>
-            </div> <br>
-            <div class="content5">
-                Billing Address <input type="text" name="billing address" placeholder="address">
-            </div>
-            <button>Submit</button>
+            <label for="cardnumber">Card Number:</label>
+            <input type="text" id="cardnumber" name="cardnumber" required>
+
+            <label for="nameOnCard">Name On Card:</label>
+            <input type="text" id="nameOnCard" name="nameOnCard" required>
+
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate" required placeholder="MM/YY">
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>
