@@ -11,6 +11,8 @@ html, body {
 }
 
 body {
+    /* background: linear-gradient(rgb(82, 71, 71)); */
+    /* background-color: hsla(286, 64%, 37%, 0.21); */
     display: flex;
     justify-content: center;
     align-items: center;
